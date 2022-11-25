@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkSelect">
+
+    <TextView
+        android:id="@+id/DrinkSelelct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="32dp"
+        android:text="飲料選單"
+        android:textColor="#009688"
+        android:textSize="45sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTableNoD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="152dp"
+        android:text="TableNo: "
+        android:textColor="#3F51B5"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edTableNoD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="152dp"
+        android:text="null"
+        android:textColor="#3F51B5"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="220dp"
+        android:text="Drinks: "
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/DrinkSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDrink">
+
+        <RadioButton
+            android:id="@+id/rbDrink1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/rbDrink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/rbDrink3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/rbDrink4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvSweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="344dp"
+        android:text="Sweet:"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/SweetSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSweet">
+
+        <RadioButton
+            android:id="@+id/rbSweetNone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None" />
+
+        <RadioButton
+            android:id="@+id/rbSweetLess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Less" />
+
+        <RadioButton
+            android:id="@+id/rbSweetHalf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Half" />
+
+        <RadioButton
+            android:id="@+id/rbSweetFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvIce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="472dp"
+        android:text="Ice: "
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/IceSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIce">
+
+        <RadioButton
+            android:id="@+id/rbHot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hot " />
+
+        <RadioButton
+            android:id="@+id/rbNoIce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" No Ice " />
+
+        <RadioButton
+            android:id="@+id/rbLessIce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Less  Ice " />
+
+        <RadioButton
+            android:id="@+id/rbNormalIce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal Ice " />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="596dp"
+        android:text="Confirm"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
