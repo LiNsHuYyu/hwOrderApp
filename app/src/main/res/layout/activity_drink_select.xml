@@ -22,33 +22,21 @@
         android:id="@+id/tvTableNoD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="148dp"
         android:layout_marginTop="152dp"
-        android:text="TableNo: "
+        android:text="桌號:"
         android:textColor="#3F51B5"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/edTableNoD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="152dp"
-        android:text="null"
-        android:textColor="#3F51B5"
-        android:textSize="28sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvDrink"
+        android:id="@+id/tvDrinkD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="220dp"
-        android:text="Drinks: "
+        android:text="飲料:"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -60,42 +48,40 @@
         android:layout_marginStart="50dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDrink">
+        app:layout_constraintTop_toBottomOf="@+id/tvDrinkD">
 
         <RadioButton
             android:id="@+id/rbDrink1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1" />
+            android:text="拿鐵" />
 
         <RadioButton
             android:id="@+id/rbDrink2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2" />
+            android:text="美式" />
 
         <RadioButton
             android:id="@+id/rbDrink3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="3" />
+            android:text="果汁" />
 
         <RadioButton
             android:id="@+id/rbDrink4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="4" />
+            android:text="奶茶" />
     </RadioGroup>
 
     <TextView
-        android:id="@+id/tvSweet"
+        android:id="@+id/tvSweetD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="344dp"
-        android:text="Sweet:"
+        android:text="甜度:"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -107,40 +93,40 @@
         android:layout_marginStart="50dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvSweet">
+        app:layout_constraintTop_toBottomOf="@id/tvSweetD">
 
         <RadioButton
             android:id="@+id/rbSweetNone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="None" />
+            android:text="無糖" />
 
         <RadioButton
             android:id="@+id/rbSweetLess"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Less" />
+            android:text="少糖" />
 
         <RadioButton
             android:id="@+id/rbSweetHalf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Half" />
+            android:text="半糖" />
 
         <RadioButton
             android:id="@+id/rbSweetFull"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Full" />
+            android:text="全糖" />
     </RadioGroup>
 
     <TextView
-        android:id="@+id/tvIce"
+        android:id="@+id/tvIceD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="472dp"
-        android:text="Ice: "
+        android:text="冰塊:"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -152,31 +138,31 @@
         android:layout_marginStart="50dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvIce">
+        app:layout_constraintTop_toBottomOf="@id/tvIceD">
 
         <RadioButton
             android:id="@+id/rbHot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hot " />
+            android:text="熱" />
 
         <RadioButton
             android:id="@+id/rbNoIce"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" No Ice " />
+            android:text="去冰" />
 
         <RadioButton
             android:id="@+id/rbLessIce"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Less  Ice " />
+            android:text="少冰" />
 
         <RadioButton
             android:id="@+id/rbNormalIce"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Normal Ice " />
+            android:text="正常冰" />
     </RadioGroup>
 
     <Button
@@ -184,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
-        android:layout_marginTop="596dp"
+        android:layout_marginTop="572dp"
         android:text="Confirm"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"

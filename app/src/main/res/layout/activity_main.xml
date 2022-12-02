@@ -26,7 +26,6 @@
         android:layout_marginTop="176dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="EnterYourTableNo"
         android:textColor="#F67575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,9 +34,9 @@
         android:id="@+id/tvTableNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="176dp"
-        android:text="tableNo:"
+        android:text="桌號:"
         android:textColor="#3F51B5"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,59 +66,69 @@
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="344dp"
-        android:text="~~Here is your order~~"
+        android:text="~~您的餐點如下~~"
         android:textColor="#673AB7"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/edMainDish"
+        android:id="@+id/tvMainDish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="424dp"
-        android:text="MainDish:"
+        android:text="主餐:"
         android:textColor="#4CAF50"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/edDrink"
+        android:id="@+id/tvDrink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="472dp"
-        android:text="Drink:"
+        android:text="飲料:"
         android:textColor="#00BCD4"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/edSweet"
+        android:id="@+id/tvSweet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="524dp"
-        android:text="Sweet:"
+        android:text="甜度:"
         android:textColor="#00BCD4"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/edIce"
+        android:id="@+id/tvIce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="580dp"
-        android:text="Ice:"
+        android:text="冰塊:"
         android:textColor="#00BCD4"
         android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="628dp"
+        android:text="重新點餐"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
