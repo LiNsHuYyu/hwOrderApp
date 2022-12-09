@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="424dp"
-        android:text="主餐:"
+        android:text="主餐:無"
         android:textColor="#4CAF50"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,31 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="472dp"
-        android:text="飲料:"
-        android:textColor="#00BCD4"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvSweet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="524dp"
-        android:text="甜度:"
-        android:textColor="#00BCD4"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvIce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="580dp"
-        android:text="冰塊:"
+        android:text="飲料:無"
         android:textColor="#00BCD4"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"

@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="160dp"
-        android:text="tableNo: "
+        android:text="桌號: "
         android:textColor="#3F51B5"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="220dp"
-        android:text="A Meal"
+        android:text="A 餐"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="368dp"
-        android:text="C Meal"
+        android:text="C 餐"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="448dp"
-        android:text="D Meal"
+        android:text="D 餐"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="292dp"
-        android:text="B Meal"
+        android:text="B 餐"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

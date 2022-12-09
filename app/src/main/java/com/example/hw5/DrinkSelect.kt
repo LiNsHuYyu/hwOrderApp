@@ -21,15 +21,16 @@ class DrinkSelect : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_drink_select)
-
-        var tvTableNoD = findViewById<TextView>(R.id.tvTableNoD)
         var btnConfirmD = findViewById<Button>(R.id.btnConfirmD)
+        var tvTableNoD = findViewById<TextView>(R.id.tvTableNoD)
+        tvTableNoD.text = "桌號: ${intent.getStringExtra("tableNo")}"
+
 
         drinkGroup = findViewById(R.id.DrinkSelect)
         sugarGroup = findViewById(R.id.SweetSelect)
         iceGroup = findViewById(R.id.IceSelect)
 
-        tvTableNoD.text = intent.getStringExtra("dataTransfer")
+        //tvTableNoD.text = intent.getStringExtra("dataTransfer")
 
         btnConfirmD.setOnClickListener {
             var selectOption: Int = iceGroup!!.checkedRadioButtonId
@@ -43,7 +44,7 @@ class DrinkSelect : AppCompatActivity() {
 
             val finalDrink = "${selectedDrink.text} \n\n甜度:${sugar.text} \n\n冰塊:${ice.text}"
             val intent = Intent().apply {
-                putExtra("result", "$finalDrink")
+                putExtra("resultD", "$finalDrink")
             }
 
             setResult(Activity.RESULT_OK, intent)
